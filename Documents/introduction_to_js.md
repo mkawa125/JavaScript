@@ -29,3 +29,28 @@
 ```
 2. Click F12  to open developer tools. The developer tools will open console tab by default.
 ```
+
+### Code Structure Block of code
+
+> Here we shall learn about building the block of codes. In Java script statement is termed as the block of code, statements can be separated by comma but it can can be ommited if line break exist.
+
+```
+a.  Statement separated by comma
+    alert('Hello'); alert('World');
+
+b.  Statement with comma ommited
+    alert('Hello');
+    alert('World');
+
+```
+
+### Use strict mode
+The directive looks like a string: "use strict" or 'use strict'. When it is located at the top of a script, the whole script works the “modern” way.
+
+For example:
+```
+"use strict";
+
+// this code works the modern way
+...
+```
