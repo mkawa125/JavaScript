@@ -54,3 +54,8 @@ For example:
 // this code works the modern way
 ...
 ```
+
+### Constant and variables
+- let is the  modern style for defining variable
+- var is old style
+- const used to assign constant value that can never change, and can not be reassigned
