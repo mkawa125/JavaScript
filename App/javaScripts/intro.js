@@ -12,4 +12,10 @@ const myBirthday = '18.04.1982';
 let string = `${message}, ${name}`
 
 // show variable content
-alert(string);
+// alert(string);
+
+// logical operators
+let hour = 8;
+if (hour < 10 || hour > 19) {
+    alert('office closed please come tumor')
+}
