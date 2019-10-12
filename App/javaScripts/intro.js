@@ -73,5 +73,28 @@ if (hour == 8 && minute == 30) {
     alert(i);
 }
 
+/**
+ * Switch statement
+ * This replace multiple if checks
+ * contains case blocks and optional defaults
+ * example below no break, all cases are checked
+ * break can be used in each case to exit code if condition meet
+ *  
+ */
 
+let a = 2 + 2;
+
+switch (a) {
+  case 3:
+    alert( 'Too small' );
+    break;
+  case 4:
+    alert( 'Exactly!' );
+    break;
+  case 5:
+    alert( 'Too large' );
+    break;
+  default:
+    alert( "I don't know such values" );
+}
 
