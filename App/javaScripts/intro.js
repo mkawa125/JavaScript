@@ -30,3 +30,48 @@ if (hour < 10 || hour > 19) {
 if (hour == 8 && minute == 30) {
     alert( 'The time is 12:30' );
   }
+
+
+  /**
+   * Loops: while and for
+   * loop is way for repeating the same code multiple times
+   * while loop, execute if the condition is true and repeats until it is false
+   * do while used when ou want your code to execute atleast once
+   *  
+   */
+
+   // while loop
+
+  let i = 0;
+  while (i < 3) { // shows 0, then 1, then 2
+    alert( i );
+    i++; // if this miss code will execute forever
+  }
+
+  // do while loop
+
+  do {
+    document.write(i);
+    i++;
+  } while (i < 3);
+
+  /**
+   * for loop
+   * like while loop
+   * use can skip parts but puting ;
+   * you can break the loop at any time if (!value) break; // (*)
+   * continue and exist, you can continue and exit if a condition meet
+   * for (let i = 0; i < 10; i++) {
+
+  // if true, skip the remaining part of the body
+        if (i % 2 == 0) continue;
+
+        alert(i); // 1, then 3, 5, 7, 9
+    }
+   */
+  for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
+    alert(i);
+}
+
+
+
