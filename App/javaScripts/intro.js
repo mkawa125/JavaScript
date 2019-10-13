@@ -92,7 +92,7 @@ switch (a) {
     alert( 'Exactly!' );
     break;
   case 5:
-    alert( 'Too large' );
+    alert( 'Number is too large' );
     break;
   default:
     alert( "I don't know such values" );
