@@ -79,7 +79,7 @@ if (hour == 8 && minute == 30) {
  * contains case blocks and optional defaults
  * example below no break, all cases are checked
  * break can be used in each case to exit code if condition meet
- *  
+ *  If no break code execute untill all statements finished
  */
 
 let a = 2 + 2;
