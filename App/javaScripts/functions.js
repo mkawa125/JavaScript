@@ -38,3 +38,22 @@ function checkAge(age) {
   
   // usage: functions showOk, showCancel are passed as arguments to ask
   ask("Do you agree?", showOk, showCancel);
+
+
+/**
+ * 
+ * @param {*} a 
+ * @param {*} b 
+ * Adding arrow functions
+ */
+
+  let sum = (a, b) => a + b;
+
+/* The arrow function is a shorter form of:
+
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+
+alert( sum(1, 2) ); // 3
