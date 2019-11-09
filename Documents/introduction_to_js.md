@@ -59,3 +59,6 @@ For example:
 - let is the  modern style for defining variable
 - var is old style
 - const used to assign constant value that can never change, and can not be reassigned
+
+### Classes
+A class is the sytatctic sugar that has nothing to do than making things easire to read
