@@ -62,3 +62,7 @@ For example:
 
 ### Classes
 A class is the sytatctic sugar that has nothing to do than making things easire to read
+
+One of the most important principles of object oriented programming – delimiting internal interface from the external one.
+
+That is “a must” practice in developing anything more complex than a “hello world” app.
